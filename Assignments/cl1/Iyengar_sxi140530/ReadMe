@@ -1,0 +1,72 @@
+Name : Srikant Iyengar
+Net ID: sxi140530
+
+***************************************************************************************************************
+
+Steps to run the R Script Files:
+
+I ran the scripts using a Ubuntu Operating System in the Command Line,
+After downloading the binaries for R in Ubuntu, we should be able to use the Rscript command.
+
+Command syntax:
+Rscript <Path of the R Script filename>
+
+Assuming the the script files are in the Path: /home/srikant/Desktop/Iyengar_sxi140530 commands 
+for running the script files kyphosis.R and solder.R are as follows:
+
+Rscript /home/srikant/Desktop/Iyengar_sxi140530/kyphosisandsolder.R
+
+****************************************************************************************************************
+
+Expected Output for the Scripts:
+
+The script will generate a pdf file called Rplot.pdf in the directory from where you run the script.
+For Example: if I run the above command from the path : /home/srikant , the Rplot.pdf file will be present in the path: 
+/home/srikant/Rplots.pdf
+
+
+This pdf file has 8 graphs which are described below 4 for each of the datasets , the first four for kyphosis and the last four for 
+solder dataset.
+
+When we run the script files in the output we will observe the following parts for each dataset:
+
+1) printcp output for the initial model on the entire dataset which includes the CP Table and the rpart formula used.
+2) The summary to determine important Attributes that were used in the model ( this is the anser for Question 3 of the assignment). 
+3) plot of the original desicion tree. This is the first graph we observe in the pdf file Rplots.pdf
+4) printcp output for the pruned tree of the above model.
+5) plot of the pruned tree. This is the second graph in the pdf file.
+6) printcp of the decision tree that will be split on the basis of 80%-20%.
+7) plot of the pruned tree for the above split. This is the 3rd graph in the pdf file.
+8) The accuracy for this split.
+9) printcp of the decision tree that will be split on the basis of 80%-20%.
+10) plot of the pruned tree for the above split. This is the 3rd graph in the pdf file.
+11) The accuracy for this split.
+
+**********************************************************************************************************************
+Important Attributes for Kyphosis:
+Age - 39 
+Start - 39 
+Number - 23 
+
+Important Attributes for Solder:
+
+skips - 45 
+Opening - 24   
+Mask - 24 
+PadType - 7 
+
+Answer for Question 5 and 6
+
+I ran the above script several time and below is the average accuracy percent for both the models:
+
+Accuracy for Kyphosis for 80 - 20 split: 76.47059
+Accuracy for Kyphosis for 90 - 10 split: 88.88889
+
+Accuracy for solder for 80 - 20 split: 73.61111
+Accuracy for Kyphosis for 90 - 10 split: 81.94444
+
+
+
+
+
+

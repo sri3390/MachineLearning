@@ -1,0 +1,93 @@
+Name : Srikant Iyengar
+Net ID: sxi140530
+
+***********************************************************************************************************************************************
+
+Steps to run the Python Code:
+
+python <path with python file> <L value> <K value> "<path for trainig-set>" "<path for validation-set>" "<path for test-set>" "<to-print> yes,no"
+
+eg if the path of python and datafiles is /home/srikant/Desktop/Iyengar_sxi140530/ then,
+
+python /home/srikant/Desktop/Iyengar_sxi140530/Assignment2.py 2 3 "/home/srikant/Desktop/Iyengar_sxi140530/data_sets1/training_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets1/validation_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets1/test_set.csv" "no"
+
+python /home/srikant/Desktop/Iyengar_sxi140530/Assignment2.py 2 3 "/home/srikant/Desktop/Iyengar_sxi140530/data_sets1/training_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets1/validation_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets1/test_set.csv" "yes"
+
+python /home/srikant/Desktop/Iyengar_sxi140530/Assignment2.py 2 3 "/home/srikant/Desktop/Iyengar_sxi140530/data_sets2/training_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets2/validation_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets2/test_set.csv" "yes"
+
+python /home/srikant/Desktop/Iyengar_sxi140530/Assignment2.py 2 3 "/home/srikant/Desktop/Iyengar_sxi140530/data_sets2/training_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets2/validation_set.csv" "/home/srikant/Desktop/Iyengar_sxi140530/data_sets2/test_set.csv" "no"
+
+Steps to run the Rscript Code:
+
+Rscript  /home/srikant/Desktop/Iyengar_sxi140530/R-Part.R /home/srikant/Desktop/Iyengar_sxi140530/data_sets1/training_set.csv /home/srikant/Desktop/Iyengar_sxi140530/data_sets1/validation_set.csv /home/srikant/Desktop/Iyengar_sxi140530/data_sets1/test_set.csv
+
+Rscript  /home/srikant/Desktop/Iyengar_sxi140530/R-Part.R /home/srikant/Desktop/Iyengar_sxi140530/data_sets2/training_set.csv /home/srikant/Desktop/Iyengar_sxi140530/data_sets2/validation_set.csv /home/srikant/Desktop/Iyengar_sxi140530/data_sets2/test_set.csv
+
+***********************************************************************************************************************************************
+
+Output for Python Code:
+
+L=2 , K=3		
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 51.7258629315
+
+L=5 , K=7
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 51.7258629315
+
+L=2 , K=7
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+L=4 , K=12
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 51.7258629315
+
+L=10 , K=12
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+L=15 , K=17
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 53.1765882941
+
+L=16 , K=21
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+L=19 , K=23
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+L=23 , K=27
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+L=25 , K=29
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+L=27 , K=30
+Accuracy Before Pruning: 50.5843071786
+Accuracy After Pruning: 69.2346173087
+
+
+Accuracy for Dataset2 is as follows:
+L=25 , K=27
+Accuracy Before Pruning: 50.918196995
+Accuracy After Pruning: 60.4340567613
+
+
+Output for the R-file for dataset1:
+
+The Accuracy is : 
+[1] 76.8
+
+The plot will be created in the same directory in form of a PDF file from where we run the program.
+Running the Rscript file will display the Acuuracy.
+
+
+***********************************************************************************************************************************************
+
+
+
